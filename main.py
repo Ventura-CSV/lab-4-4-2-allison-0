@@ -1,9 +1,7 @@
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    while True:
+        try: 
+            number = input("Enter a number:"))
 
     ########################################
     # Do not delete the return statement
