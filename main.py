@@ -1,8 +1,7 @@
 def main():
     while True:
         try: 
-           number = input("Enter a numeric value: ")
-           isNumeric = float(number)
+           number = input(int("Enter a numeric value: "))   
         except ValueError:
             print(f"{number} is not a numeric value, try again.")
         else:
