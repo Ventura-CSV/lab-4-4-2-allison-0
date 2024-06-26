@@ -1,12 +1,14 @@
 def main():
     while True:
-        number = input("Enter a number:"))
         try: 
-            if number.isnumeric():
-                print(number)
-                break
+           number = input("Enter a numeric value: ")
+           isNummeric = float(number)
+        except ValueError:
+            print("Invalid, try again.")
         else:
-            
+            print(f"{number} is a valid numeric value.")
+            break
+
 
 
     ########################################
