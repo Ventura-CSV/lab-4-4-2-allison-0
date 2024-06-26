@@ -3,7 +3,7 @@ def main():
         try: 
            number = int(input("Enter a numeric value: "))   
         except ValueError:
-            print(f"{number} is not a numeric value, try again.")
+            print("Invalid input.")
             continue
         else:
             print(number)
