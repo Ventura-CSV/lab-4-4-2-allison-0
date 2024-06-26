@@ -2,9 +2,9 @@ def main():
     while True:
         try: 
            number = input("Enter a numeric value: ")
-           isNummeric = float(number)
+           isNumeric = float(number)
         except ValueError:
-            print("Invalid, try again.")
+            print(f"{number} is not a numeric value, try again.")
         else:
             print(f"{number} is a valid numeric value.")
             break
