@@ -1,7 +1,13 @@
 def main():
     while True:
+        number = input("Enter a number:"))
         try: 
-            number = input("Enter a number:"))
+            if number.isnumeric():
+                print(number)
+                break
+        else:
+            
+
 
     ########################################
     # Do not delete the return statement
